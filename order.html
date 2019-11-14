@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Order Form</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="css/cake1.css" />
+	<!--[if IE 8]>
+		<link rel="stylesheet" type="text/css" href="css/ie8.css" />
+	<![endif]-->
+	<!--[if IE 7]>
+		<link rel="stylesheet" type="text/css" href="css/ie7.css" />
+	<![endif]-->
+	<!--[if IE 6]>
+		<link rel="stylesheet" type="text/css" href="css/ie6.css" />
+	<![endif]-->
+</head>
+<body>
+	<div id="header">
+		<div>
+			<div>
+				<div id="logo">
+					<a href="index.html"><img src="image/cakes.png" alt="Logo"/></a>
+				</div>
+				<div>
+					<div>
+						<a href="signup.html">My Account</a>
+						<a href="signin.html" class="last">Sign in</a>
+					</div>
+					<form action="#">
+						<input type="text" id="search" maxlength="30" />
+						<input type="submit" value="" id="searchbtn" />
+					</form>
+				</div>
+			</div>
+			<ul class="nav">
+			    <li><a href="cakehome.html">Home</a></li>
+				<li><a href="product.html">Product</a>
+				 <ul>
+				  <li><a href="dailycake.html">Daily cakes</a></li>
+				  <li><a href="birthdaycake.html">Birthday cakes</a></li>
+				  <li><a href="kidscake.html">Kids cakes</a></li>
+				  <li><a href="imagecake.html">Image cakes</a></li>
+				  <li><a href="diffrentcake.html">Diffrent Flavour cakes</a></li>
+				  <li><a href="fondantcake.html">Fondant cakes</a></li>
+				  <li><a href="valentinecake.html">Valentine cakes</a></li>
+				  <li><a href="weddingcake.html">Wedding Cakes</a></li>
+				  <li><a href="cupcake.html">CupCakes</a></li>
+				 </ul>
+				</li>
+				<li class="current"><a href="order.html">Order Form</a></li>
+				<li><a href="gift.html">Gifts</a></li>
+				<li><a href="about.html">About us</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+			<div class="section">
+			 <a href="order.html"><img src="image/wedding-cupcakes-small.jpg" alt="Image"/></a>
+		    </div>
+		</div>
+	</div>
+	<div class="content">
+		<div>
+			<div id="order">
+				<div>
+					<form action="#">
+						<span>Order Form</span>
+					    <label for="name">Name:</label>
+						<input type="text" id="name" required /><br />
+						<label for="email" required>E-mail:</label>
+						<input type="text" id="email" /><br />
+						<label for="number" required>Phone No:</label>
+						<input type="number" id="number" /><br />
+						<label for="datetime" required>Event Date:</label>
+						<input type="datetime" id="datetime" /><br />
+					    <label for="size">Cake Size:</label>
+						<input type="text" id="size" required /><br />
+						<label for="flavour">Cake Flavour:</label>	
+						<input type="checkbox" name="flavour" value="chocolate" id="chocolate" />Chocolate
+		                <input type="checkbox" name="flavour" value="vanilla" id="vanilla" />Vanilla
+		                <input type="checkbox" name="flavour" value="butterscotch" id="butterscotch" />Butter Scotch
+						<input type="checkbox" name="flavour" value="redvelvet" id="redvelvet" />Red Velvet
+		                <input type="checkbox" name="flavour" value="fruit" id="fruit" />Fruit<br />
+						<label for="sugar">Sugar Level:</label>
+						<input type="radio" name="sugar" value="no" id="no" />No Sugar
+		                <input type="radio" name="sugar" value="less" id="less" />Less Sugar
+		                <input type="radio" name="sugar" value="medium" id="medium" />Medium sugar<br />
+						<label for="sugar">Creamy:</label>
+						<input type="radio" name="creamy" value="less" id="less" />Less Creamy
+		                <input type="radio" name="creamy" value="medium" id="medium" />Medium Creamy
+		                <input type="radio" name="creamy" value="very" id="very" />Very  Creamy<br />
+						<label for="sugar">Chocolate:</label>
+						<input type="radio" name="chocolate" value="less" id="less" />Less Chocolate
+		                <input type="radio" name="chocolate" value="medium" id="medium" />Medium Chocolate
+		                <input type="radio" name="chocolate" value="more" id="more" />More Chocolate<br />
+					    <label for="icingflavour">Icing Flavour:</label>
+						<input type="text" id="icingflavour" /><br />
+						<label for="file">Photo Upload:</label>
+						<input type="file" id="file" /><br />
+						<label for="requirement">Other Requirement:</label><br />
+	                    <textarea id="requirement" name="requirement" rows="10" cols="80"></textarea><br />
+					    <input type="submit" value="Order" class="submitbtn" />
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="section">
+			<div>
+				<div class="aside">
+					<div>
+						<div>
+							<b>Too <span>BUSY</span> to shop?</b>
+							<a href="signup.html">Sign up for free</a>
+							<p>and we&#39;ll deliver it on your doorstep</p>
+						</div>
+					</div>
+				</div>
+				<div class="connect">
+					<span>Follow Us</span>
+					<ul>
+						<li><a href="http://facebook.com" target="_blank" class="facebook">Facebook</a></li>
+						<li><a href="http://twitter.com" target="_blank" class="twitter">Twitter</a></li>
+						<li><a href="#" class="subscribe">Subscribe</a></li>
+						<li><a href="http://www.flickr.com" target="_blank" class="flicker">Flicker</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="featured">
+			<ul>
+			 <h2>News About New Invention</h2>
+				<li class="first">
+					<a href="cakehome.html"><img src="image/gift10.jpg" alt="Image" /></a>
+					<h2><a href="cakehome.html">Fruit Chocolate</a></h2>
+					<p>Fruit Chocolate is the latest invention for all chocolate lovers. Fruit Chocolate taste is delicious and it’s healthy. Fruit chocolate is not costly. Everyone can eat and buy easily. Fruit chocolate is now available in gift page.</p>
+				</li>
+				<li>
+					<a href="cakehome.html"><img src="image/gift11.jpg" alt="Image" /></a>
+					<h2><a href="cakehome.html">Chocolate Pizza</a></h2>
+					<p>Chocolate Pizza is the latest invention for all chocolate and cake lovers. Chocolate pizza taste is delicious and it’s not much sweet. This is available in different flavors. This is available in gift page.</p>
+				</li>
+				<li>
+					<a href="cakehome.html"><img src="image/gift8.jpg" alt="Image" /></a>
+					<h2><a href="cakehome.html">Cookie Cake</a></h2>
+					<p>Cookie Cake is the latest invention for all children. This Cookie Cake is so tasty and creamy. Cookie Cake is not much sweet and not much costly. Cookie Cake is now available in gift page.</p>
+				</li>
+				<li>
+					<a href="cakehome.html"><img src="image/gift9.jpg" alt="Image" /></a>
+					<h2><a href="cakehome.html">Fruit Chocolate Combo</a></h2>
+					<p>Fruit Chocolate combo is the latest invention for all age people. Fruit Chocolate combo taste is delicious and healthy. This combo is not much sweet. Fruit Chocolate is now available in gift page.</p>
+				</li>
+			</ul>
+		</div>
+		<div id="navigation">
+			<div>
+				<ul>
+					<li class="first"><a href="cakehome.html">Home</a></li>
+					<li><a href="about.html">About us</a></li>
+					<li><a href="contact.html">Contact us</a></li>
+					<li><a href="cakehome.html">cancellation policy</a></li>
+					<li><a href="cakehome.html">Refund policy</a></li>
+					<li><a href="cakehome.html">developers</a></li>
+					<li><a href="cakehome.html">privacy policy</a></li>
+					<li><a href="cakehome.html">terms and conditions</a></li>
+				</ul>
+				<p>Copyright &copy; Cake & Bake All rights reserved</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

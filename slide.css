@@ -1,0 +1,25 @@
+#header div ul li.parent a {
+	 background: url(../image/sprite-buttons.gif) no-repeat 0 -205px;
+	color: #5b5c5e;
+	display: block;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #e8edf1;
+	text-transform: capitalize;
+	overflow: hidden;
+}
+
+#header div ul.submenu {
+	 background: url(../image/sprite-buttons.gif) no-repeat 0 -205px;
+	color: #5b5c5e;
+	display: block;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #e8edf1;
+	text-transform: capitalize;
+	overflow: hidden;
+	margin: 0;
+	outline: none;
+}

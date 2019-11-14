@@ -1,0 +1,134 @@
+body {
+       background-color: #dcdcdc;
+	   margin: 0;
+	   padding: 0;
+	  
+     }
+	 
+header {
+	     font-family: Georgia, serif ;
+		 font-size: 60px;
+		 color: #f08080;
+		 text-align: center;
+		 margin: 10px;
+		 padding: 0px;
+		 position: relative;
+       }
+	   
+h1 {
+	font-family: Times New Roman, Times, serif ;
+	font-size: 35px;
+	color: #d2691e;
+	margin: 10px;
+	padding-left: 10px;
+	text-align: center;
+
+   }
+   
+p {
+	  font-family: verdana;
+	  font-size: 0.8em;
+	  color: #ff4500;
+	  margin: 0 0 10px 0;
+	  padding: 0px 10px 0px 10px;
+    }
+a{
+	font-family:arial;
+	font-weight:bold;
+ }
+			
+a:link{
+		background-color: #ffefd5;
+		color: #800080;
+	  }
+	  
+.container {
+	         min-width: 1000px;
+			 width: 100%;
+			 position: relative;
+			 
+            }
+			
+.content {
+	       position: relative;
+		   width: auto;
+		   max-width: 100%;
+		   margin: 10px 100px 10px 100px;
+		   border-style: solid;
+		   border-width: 1px;
+		   border-color: #f5fffa;
+		   background-color: #ffb6c1;
+		   
+         }
+
+footer {
+	     font-size: 25px;
+		 text-align: center;
+		 margin: 10px;
+		 padding: 0px;
+		 position: relative;
+        }
+	
+fieldset {
+	       color: #00008b;
+		   background-color: #ffe4e1;
+		   width:auto;
+		   max-width:133px;
+		   margin:12px;
+		   padding:10px 10px 5px 5px;
+		   font-family: Tahoma, Geneva, sans-serif;
+         }
+		 
+label {
+	    color:#00008b;
+		padding: 12px 0px 12px 15px;
+		font-family: Tahoma, Geneva, sans-serif;
+      }
+
+select {
+	                               
+        width: 150px;
+	    padding:10px 10px 5px 5px;
+	    border: 1px solid #696969;
+		margin: 12px;
+		font-family: Arial, Helvetica, sans-serif;
+									
+       }
+		
+.t1 {
+	    width: 500px;
+	    padding:10px 10px 5px 5px;
+	    border: 1px solid #696969;
+		margin: 12px 12px 12px 64px;
+		font-family: verdana;
+	
+     }	
+	 
+.t2 {
+	    width: 500px;
+	    padding:10px 10px 5px 5px;
+	    border: 1px solid #696969;
+		margin: 12px 12px 12px 25px;
+		font-family: verdana;
+	
+     }	
+
+textarea {
+	       min-width:auto;
+		   padding:10px 10px 5px 5px;
+		   margin:12px;
+		   border: 1px solid #696969;
+		   font-family: verdana;
+         }
+
+input[type=text],select,textarea {
+	                              background-color:#d8bfd8;
+                                }
+		   
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  margin: 12px;
+}    
